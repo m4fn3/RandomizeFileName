@@ -24,7 +24,7 @@ const RandomizeFileName: Plugin = {
             let exclude = false
             if (splitted.length > 1) {
                 ext = `.${splitted[splitted.length - 1]}`
-                if (get(plugin_name, "exts", "[]").toString().split("|").includes(ext.slice(1))) {
+                if (get(plugin_name, "exts", "").toString().split("|").includes(ext.slice(1))) {
                     exclude = true
                 }
             }
