@@ -1,12 +1,12 @@
 {
    "name": "RandomizeFileName",
    "version": "1.0.0",
-   "description": "test",
+   "description": "Randomize the name of file you upload",
    "authors": [
       {
          "name": "mafu",
          "id": "519760564755365888"
       }
    ],
-   "color": "#bdb76b"
+   "color": "#b0c4de"
 }
